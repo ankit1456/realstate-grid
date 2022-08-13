@@ -24,16 +24,16 @@ const Navbar = () => {
         <div className="menu">
           <ul className={open ? "nav-menu active" : "nav-menu"}>
             <li>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="#">Search</a>
+              <a href="/">Search</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="/">About</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="/">Contact</a>
             </li>
           </ul>
           <button className="btn btn-signin">Sign In</button>
