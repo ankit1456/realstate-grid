@@ -1,0 +1,42 @@
+.best {
+  width: 100%;
+  margin: 4rem 0;
+  text-align: center;
+}
+.best-links {
+  display: flex;
+  justify-content: center;
+}
+.best .best-links p {
+  margin: 1.5rem 2rem;
+  font-size: 1.2rem;
+}
+.bold {
+  font-weight: 700;
+}
+.best .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-gap: 1.2rem;
+  padding: 1rem;
+}
+
+.best img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 940px) {
+  .best {
+    margin: 1rem 0;
+  }
+  .best .best-links p {
+    margin: 1rem;
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 478px) {
+  .best .best-links p {
+    margin: 1rem 0.5rem;
+  }
+}
